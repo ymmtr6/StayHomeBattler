@@ -17,6 +17,7 @@
 		325710B62454CBCC00F6D90C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 325710B52454CBCC00F6D90C /* Settings.bundle */; };
 		325710BC2455C49100F6D90C /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325710BB2455C49100F6D90C /* RootTabBarController.swift */; };
 		325710C02455C5A300F6D90C /* RootTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325710BF2455C5A300F6D90C /* RootTabBarControllerDelegate.swift */; };
+		325710C42458997D00F6D90C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 325710C32458997D00F6D90C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		325710BF2455C5A300F6D90C /* RootTabBarControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarControllerDelegate.swift; sourceTree = "<group>"; };
 		325710C12455E31200F6D90C /* MyHouse.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = MyHouse.gpx; path = ../../GPX/MyHouse.gpx; sourceTree = "<group>"; };
 		325710C22455E31B00F6D90C /* MarketPlace.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = MarketPlace.gpx; path = ../../GPX/MarketPlace.gpx; sourceTree = "<group>"; };
+		325710C32458997D00F6D90C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		32571055245484DB00F6D90C = {
 			isa = PBXGroup;
 			children = (
+				325710C32458997D00F6D90C /* README.md */,
 				325710C22455E31B00F6D90C /* MarketPlace.gpx */,
 				325710C12455E31200F6D90C /* MyHouse.gpx */,
 				32571060245484DC00F6D90C /* StayHomeBattler */,
@@ -195,6 +198,7 @@
 			files = (
 				325710B62454CBCC00F6D90C /* Settings.bundle in Resources */,
 				3257106E245484E200F6D90C /* LaunchScreen.storyboard in Resources */,
+				325710C42458997D00F6D90C /* README.md in Resources */,
 				3257106B245484E200F6D90C /* Assets.xcassets in Resources */,
 				32571069245484DC00F6D90C /* Main.storyboard in Resources */,
 			);
