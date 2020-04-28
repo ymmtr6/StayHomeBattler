@@ -14,6 +14,9 @@
 		3257106B245484E200F6D90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3257106A245484E200F6D90C /* Assets.xcassets */; };
 		3257106E245484E200F6D90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257106C245484E200F6D90C /* LaunchScreen.storyboard */; };
 		32571079245484E300F6D90C /* StayHomeBattlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32571078245484E300F6D90C /* StayHomeBattlerTests.swift */; };
+		325710B62454CBCC00F6D90C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 325710B52454CBCC00F6D90C /* Settings.bundle */; };
+		325710BC2455C49100F6D90C /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325710BB2455C49100F6D90C /* RootTabBarController.swift */; };
+		325710C02455C5A300F6D90C /* RootTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325710BF2455C5A300F6D90C /* RootTabBarControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 		32571074245484E300F6D90C /* StayHomeBattlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StayHomeBattlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32571078245484E300F6D90C /* StayHomeBattlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayHomeBattlerTests.swift; sourceTree = "<group>"; };
 		3257107A245484E300F6D90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		325710B52454CBCC00F6D90C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		325710BB2455C49100F6D90C /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		325710BF2455C5A300F6D90C /* RootTabBarControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarControllerDelegate.swift; sourceTree = "<group>"; };
+		325710C12455E31200F6D90C /* MyHouse.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = MyHouse.gpx; path = ../../GPX/MyHouse.gpx; sourceTree = "<group>"; };
+		325710C22455E31B00F6D90C /* MarketPlace.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = MarketPlace.gpx; path = ../../GPX/MarketPlace.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,8 @@
 		32571055245484DB00F6D90C = {
 			isa = PBXGroup;
 			children = (
+				325710C22455E31B00F6D90C /* MarketPlace.gpx */,
+				325710C12455E31200F6D90C /* MyHouse.gpx */,
 				32571060245484DC00F6D90C /* StayHomeBattler */,
 				32571077245484E300F6D90C /* StayHomeBattlerTests */,
 				3257105F245484DC00F6D90C /* Products */,
@@ -80,12 +90,15 @@
 			isa = PBXGroup;
 			children = (
 				32571061245484DC00F6D90C /* AppDelegate.swift */,
+				325710BB2455C49100F6D90C /* RootTabBarController.swift */,
 				32571063245484DC00F6D90C /* SceneDelegate.swift */,
 				32571065245484DC00F6D90C /* ViewController.swift */,
 				32571067245484DC00F6D90C /* Main.storyboard */,
+				325710BF2455C5A300F6D90C /* RootTabBarControllerDelegate.swift */,
 				3257106A245484E200F6D90C /* Assets.xcassets */,
 				3257106C245484E200F6D90C /* LaunchScreen.storyboard */,
 				3257106F245484E200F6D90C /* Info.plist */,
+				325710B52454CBCC00F6D90C /* Settings.bundle */,
 			);
 			path = StayHomeBattler;
 			sourceTree = "<group>";
@@ -180,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325710B62454CBCC00F6D90C /* Settings.bundle in Resources */,
 				3257106E245484E200F6D90C /* LaunchScreen.storyboard in Resources */,
 				3257106B245484E200F6D90C /* Assets.xcassets in Resources */,
 				32571069245484DC00F6D90C /* Main.storyboard in Resources */,
@@ -201,7 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32571066245484DC00F6D90C /* ViewController.swift in Sources */,
+				325710BC2455C49100F6D90C /* RootTabBarController.swift in Sources */,
 				32571062245484DC00F6D90C /* AppDelegate.swift in Sources */,
+				325710C02455C5A300F6D90C /* RootTabBarControllerDelegate.swift in Sources */,
 				32571064245484DC00F6D90C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -365,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQJ4F328N7;
 				INFOPLIST_FILE = StayHomeBattler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tech.milktea.stayhome.StayHomeBattler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQJ4F328N7;
 				INFOPLIST_FILE = StayHomeBattler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tech.milktea.stayhome.StayHomeBattler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
