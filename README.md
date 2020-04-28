@@ -23,6 +23,14 @@ GeoFenceを用いて外出検知を行い、どれだけ自宅に居ることが
 * アプリを作ってみたかった
 * localpushやnotification、アプリ設計の練習
 
+## 動作
+
+* GeoFenceにより、外出行為を監視する
+    * 外出した場合は通知が飛ぶ
+    * 一定時間の経過を記録する
+* 自粛した時間を記録し、SNSに投稿する
+    * Twitterを予定(未実装)
+
 ## Environments
 
 * Xcode Version 11.4.1(11E503a)
